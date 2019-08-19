@@ -46,8 +46,8 @@ DMM (Deep Mixed Model) aims to extend the power of linear mixed model in correct
 
 
 ## Contact
-The idea of the paper is from [Haohan Wang](http://www.cs.cmu.edu/~haohanw/)
+The idea of the paper is mainly from [Haohan Wang](http://www.cs.cmu.edu/~haohanw/)
 &middot;
 [@HaohanWang](https://twitter.com/HaohanWang)
 
-The code is mostly written by [Tianwei Yue](https://github.com/ThitherShore)
+The code in this repository is mostly written by [Tianwei Yue](https://github.com/ThitherShore)
