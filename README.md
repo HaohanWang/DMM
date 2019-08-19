@@ -16,57 +16,37 @@ DMM (Deep Mixed Model) aims to extend the power of linear mixed model in correct
 
 ## File Structure:
 
-* [models/](https://github.com/HaohanWang/CMM/tree/master/model) main method for CMM
-* [utility/](https://github.com/HaohanWang/CMM/tree/master/utility) other helper files
-* [cmm.py](https://github.com/HaohanWang/CMM/blob/master/cmm.py) main entry point of using CMM to work with your own data
+* [model/](https://github.com/HaohanWang/DMM/tree/master/model) main method for DMM
+* [libs/](https://github.com/HaohanWang/DMM/tree/master/libs) other helper files, and definitions of the two components. 
 
 ## An Example Command:
 
-```
-python cmm.py --file1 ./data/mice1.plink --file2 ./data/mice2.plink -m --snum 20
-```
 #### Instructions
-```
-  Options:
-  -h, --help          show this help message and exit
 
-  Data Options:
-    --file1 INPUT FILE ONE       name of the first input file
-    --file2 INPUT FILE TWO       name of the second input file
+*  Use loadData() in libs/helpingFun.py to load data. Users need to specify which data to load here. 
+*  Run model.py in model/ to run the program. 
+*  Parameter settings are in the model.py
+      - <details><summary>parameters</summary>
+        <p>
+  
+           - epochs for both CNN and LSTM
+          - learning rates for both CNN and LSTM
+          - batch size
+          - hidden state size (we use a percentage to control the hidden state size)
+          - dropout rate
+        </p>
+</details>
 
-  Model Options:
-    --lambda=LMBD     the weight of the penalizer. If neither lambda or snum
-                      is given, cross validation will be run.
-    --snum=SNUM       the number of targeted variables the model selects. If
-                      neither lambda or snum is given, cross validation will
-                      be run.
-    -s                Stability selection
-    -q                Run in quiet mode
-    -m                Run without missing genotype imputation
-```
 
 #### Data Support
-* CMM currently supports CSV and binary PLINK files.
-* Extensions to other data format can be easily implemented through `FileReader` in `utility/dataLoadear`. Feel free to contact us for the support of other data format.
+* DMM supports .npy file, as shown in loadData() in libs/helpingFun.py
+    - X.npy is a n x p matrix, with n samples and p SNPs
+    - Y.npy is a n x 1 matrix, with n samples and 1 phenotype
 
-## Python Users
-Proficient python users can directly call the CMM method with python code, see example at [Line 261 to Line 266](https://github.com/HaohanWang/CMM/blob/master/cmm.py#L261)
-
-## Installation (Not Required)
-You will need to have numpy, scipy and pysnptool installed on your current system.
-You can install CMM using pip by doing the following
-
-```
-   pip install git+https://github.com/HaohanWang/CMM
-```
-
-You can also clone the repository and do a manual install.
-```
-   git clone https://github.com/HaohanWang/CMM
-   python setup.py install
-```
 
 ## Contact
 [Haohan Wang](http://www.cs.cmu.edu/~haohanw/)
 &middot;
 [@HaohanWang](https://twitter.com/HaohanWang)
+
+The code is mostly written by [Tianwei Yue](https://github.com/ThitherShore)
