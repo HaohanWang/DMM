@@ -19,7 +19,7 @@ DMM (Deep Mixed Model) aims to extend the power of linear mixed model in correct
 * [model/](https://github.com/HaohanWang/DMM/tree/master/model) main method for DMM
 * [libs/](https://github.com/HaohanWang/DMM/tree/master/libs) other helper files, and definitions of the two components. 
 
-## An Example Command:
+## Usage:
 
 #### Instructions
 
@@ -28,8 +28,8 @@ DMM (Deep Mixed Model) aims to extend the power of linear mixed model in correct
 *  Parameter settings are in the model.py
       - <details><summary>parameters</summary>
         <p>
-  
-           - epochs for both CNN and LSTM
+              
+          - epochs for both CNN and LSTM
           - learning rates for both CNN and LSTM
           - batch size
           - hidden state size (we use a percentage to control the hidden state size)
@@ -45,7 +45,7 @@ DMM (Deep Mixed Model) aims to extend the power of linear mixed model in correct
 
 
 ## Contact
-[Haohan Wang](http://www.cs.cmu.edu/~haohanw/)
+The idea of the paper is from [Haohan Wang](http://www.cs.cmu.edu/~haohanw/)
 &middot;
 [@HaohanWang](https://twitter.com/HaohanWang)
 
