@@ -1,16 +1,16 @@
-![DMM](dmm.PNG "Deep Mixed Model")
+![DMM](DMM.PNG "Deep Mixed Model")
 
 # DMM (Deep Mixed Model)
 
 Implementation of DMM in this paper:
 
-Wang H., Pei F., Vanyukov MM., Bahar I., Wu W. and Xing EP, Coupled Mixed Model for Joint Genetic Analysis of Complex Disorders with Two Independently Collected Data Sets (_under review_) (_[preprint](https://www.biorxiv.org/content/10.1101/336727v2)_)
+Wang H., Yue T., Yang J., Wu W., and Xing EP, Deep Mixed Model for Marginal Epistasis Detection and Population Stratification Correction in Genome-Wide Association Studies (_under review_) 
 
 ## Introduction
 
-CMM (Coupled Mixed Model) is used to simulnateously conduct genetic analysis for independently collected data sets of different related phenotypes. CMM aims to achieve this goal by inferring all the information enclosed by dashed lines in the following figure. 
+DMM (Deep Mixed Model) aims to extend the power of linear mixed model in correcting population stratification and identifying the associated genetic markers with the universarial approximation power of deep neural networks to model epistasis. 
 
-![Introduction](intro.PNG "Introduction")
+<!--- ![Introduction](intro.PNG "Introduction") -->
 
 **Replication:** This repository serves for the purpose to guide others to use our tool, if you are interested in the scripts to replicate our results, please contact us and we will share the repository for replication. Contact information is at the bottom of this page.
 
