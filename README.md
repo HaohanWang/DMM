@@ -42,6 +42,7 @@ DMM (Deep Mixed Model) aims to extend the power of linear mixed model in correct
 * DMM supports .npy file, as shown in loadData() in libs/helpingFun.py
     - X.npy is a n x p matrix, with n samples and p SNPs
     - Y.npy is a n x 1 matrix, with n samples and 1 phenotype
+* If one needs help to convert Plink data format into .npy data format, [this script](https://github.com/HaohanWang/CMM/blob/master/utility/dataLoader.py) can be helpful.  
 
 
 ## Contact
