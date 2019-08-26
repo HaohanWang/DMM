@@ -50,4 +50,4 @@ The idea of the paper is mainly from [Haohan Wang](http://www.cs.cmu.edu/~haohan
 &middot;
 [@HaohanWang](https://twitter.com/HaohanWang)
 
-The code in this repository is mostly written by [Tianwei Yue](https://github.com/ThitherShore)
+The code in this repository is mainly written by [Tianwei Yue](https://github.com/ThitherShore) and [Jingkang Yang](https://github.com/yangta1995)
