@@ -4,7 +4,7 @@
 
 Implementation of DMM in this paper:
 
-Wang H., Yue T., Yang J., Wu W., and Xing EP, Deep Mixed Model for Marginal Epistasis Detection and Population Stratification Correction in Genome-Wide Association Studies (_under review_) 
+Wang, H., Yue, T., Yang, J., Wu, W., & Xing, E. P. (2019). Deep mixed model for marginal epistasis detection and population stratification correction in genome-wide association studies. BMC bioinformatics, 20(23), 1-11. 
 
 ## Introduction
 
